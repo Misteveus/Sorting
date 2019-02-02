@@ -51,6 +51,9 @@
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\brute_force_bubble_sort.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="array_struct.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">

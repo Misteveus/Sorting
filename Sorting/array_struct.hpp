@@ -18,9 +18,6 @@
 #include "quick_sort.hpp"
 #include "record.hpp"
 
-
-using std::cin;
-using std::cout;
 using std::make_unique;
 using std::unique_ptr;
 using std::vector;
@@ -127,24 +124,12 @@ inline void struct_of_arrays_with_i_sort_objects::sort() {
 		const auto new_record = record(array->name(), array->array_type(),  array->size(), t1, t2, array->verify()) ;
 		
 		list_of_records.emplace_back(make_unique<record>(new_record));
-		// cout << new_record;
+		
 
 		array->reset(p_const_array);
 	}
 
 }
-
-//inline size_t struct_of_arrays_with_i_sort_objects::get_number_to_sort() {
-//	size_t n{0};
-//	cout << "Enter number of integers to create and sort: ";
-//	cin >> n;
-//	while (n <= 0 || n > std::numeric_limits<size_t>::max()) {
-//		cin.clear();
-//		cout << "Enter a valid number: ";
-//		cin >> n;
-//	}
-//	return n;
-//}
 
 inline const int* struct_of_arrays_with_i_sort_objects::generate_array_of_n_integers(const size_t n) {
 	const auto array_of_integers = new int[n];

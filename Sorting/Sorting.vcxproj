@@ -162,6 +162,7 @@
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\selection_sort.hpp" />
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\shell_sort.hpp" />
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\sort_class.hpp" />
+    <ClInclude Include="array_struct.hpp" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
