@@ -151,22 +151,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\brute_force_bubble_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\flagged_bubble_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\heap_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\insertion_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\i_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\merge_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\quick_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\record.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\selection_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\shell_sort.hpp" />
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\sort_class.hpp" />
+    <ClInclude Include="adt_exception.hpp" />
     <ClInclude Include="array_struct.hpp" />
+    <ClInclude Include="brute_force_bubble_sort.hpp" />
+    <ClInclude Include="dynamic_array.hpp" />
+    <ClInclude Include="flagged_bubble_sort.hpp" />
+    <ClInclude Include="heap_sort.hpp" />
+    <ClInclude Include="insertion_sort.hpp" />
+    <ClInclude Include="i_sort.hpp" />
+    <ClInclude Include="merge_sort.hpp" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="quick_sort.hpp" />
+    <ClInclude Include="record.hpp" />
+    <ClInclude Include="selection_sort.hpp" />
+    <ClInclude Include="shell_sort.hpp" />
+    <ClInclude Include="sort_class.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\lab-00-sorting-Misteveus\DataStructures\adt_exception.cpp" />
+    <ClCompile Include="adt_exception.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -1,7 +1,6 @@
 #ifndef ARRAY_STRUCT_H
 #define ARRAY_STRUCT_H
 
-#include <iostream>
 #include <chrono>
 #include <vector>
 #include <random>

@@ -1,3 +1,4 @@
+#include "pch.h"	
 #include "adt_exception.hpp"
 
 const wchar_t * adt_exception::adt_what() const
