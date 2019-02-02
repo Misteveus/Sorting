@@ -2,7 +2,6 @@
 #define ARRAY_STRUCT_H
 
 #include <iostream>
-#include <fstream>
 #include <chrono>
 #include <vector>
 #include <random>

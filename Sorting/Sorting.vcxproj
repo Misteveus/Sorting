@@ -151,7 +151,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\array_struct.hpp" />
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\brute_force_bubble_sort.hpp" />
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\flagged_bubble_sort.hpp" />
     <ClInclude Include="..\..\lab-00-sorting-Misteveus\Sorting\heap_sort.hpp" />

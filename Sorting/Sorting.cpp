@@ -1,6 +1,5 @@
 #include "pch.h"
 #include <iostream>
-#include <fstream>
 #include <iomanip>
 #include <vector>
 #include <string>
@@ -17,7 +16,7 @@ using std::make_unique;
 using std::size_t;
 
 int main(int argc, char* argv[]) {
-	std::ofstream out_file;
+	
 	{
 	using  objs = struct_of_arrays_with_i_sort_objects;
 
@@ -43,7 +42,7 @@ int main(int argc, char* argv[]) {
 			list_of_array_structs.emplace_back(make_unique<objs>(number));
 		}
 		
-		//out_file.open("sort_data.txt");
+
 		cout << std::setw(25) << std::setiosflags(std::ios::internal | std::ios::fixed) << "SORT TYPE"
 			<< std::setw(15) << std::right << "TIME"
 			<< std::setw(15) << std::right << "ARRAY SIZE"
@@ -59,7 +58,7 @@ int main(int argc, char* argv[]) {
 			cout << *record;
 
 		}
-		//out_file.close();
+	
 	}
 
 	cin.get();
