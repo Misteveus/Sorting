@@ -25,7 +25,6 @@ public:
 	size_t get_length() const noexcept;
 	void set_start_index(int index) noexcept(false);
 	void set_length(size_t new_length) noexcept(false);
-	// void shuffle();
 
 private:
 	T* storage_ = nullptr;
@@ -172,19 +171,6 @@ void dynamic_array<T>::set_length(const size_t new_length) noexcept(false) {
 		throw adt_exception(exception.what());
 	}
 }
-
-//template<class T>
-//inline void dynamic_array<T>::shuffle()
-//{
-//	std::random_device rd;
-//	std::mt19937 rng(rd());
-//	std::uniform_int_distribution<T> dist_n_numbers(0, (length_ -1)); // distribution in range [1, 6] 
-//	
-//	for (int i = 0; i < length_; i++) {
-//		std::swap(storage_[i], storage_[dist_n_numbers(rng)]);
-//	};
-//
-//}
 
 template <class T>
 dynamic_array<T>::dynamic_array(std::size_t length, const int start_index) noexcept(false) {
